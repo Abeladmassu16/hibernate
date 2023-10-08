@@ -1,7 +1,12 @@
 package org.example;
 
+import src.main.java.org.example.Alien;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Alien abel = new Alien();
+        abel.setId(1);
+        abel.setName("abel");
+        abel.setColor("black");
     }
 }
